@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:quran_kareem/constant.dart';
-import 'package:quran_kareem/settings.dart';
+import 'package:quran_kareem/constants/urlApp.dart';
+import 'package:quran_kareem/pages/settings.dart';
 import 'package:share_plus/share_plus.dart';
 import 'package:url_launcher/url_launcher.dart';
 

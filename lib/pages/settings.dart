@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:quran_kareem/constant.dart';
+import 'package:quran_kareem/constants/constant.dart';
 
 class SettingsScreen extends StatefulWidget {
   const SettingsScreen({Key? key}) : super(key: key);
-
 //  صفحه إعدادات
-
   @override
   State<SettingsScreen> createState() => _SettingsScreenState();
 }

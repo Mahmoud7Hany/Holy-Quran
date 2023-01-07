@@ -1,8 +1,8 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:quran_kareem/constant.dart';
-import 'package:quran_kareem/index_page.dart';
+import 'package:quran_kareem/constants/constant.dart';
+import 'package:quran_kareem/pages/index_page.dart';
 
 void main() {
   runApp(const MyApp());

@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:quran_kareem/constant.dart';
+import 'package:quran_kareem/constants/constant.dart';
 import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
 import 'package:share_plus/share_plus.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:quran_kareem/constants/map_quran_constant.dart';
 
 final ItemScrollController itemScrollController = ItemScrollController();
 final ItemPositionsListener itemPositionsListener =
     ItemPositionsListener.create();
 
-//  دي صفحه عرض السور والايات الي هيا لما اضغط علي اسم السوره يفتحه الصفحه دي
-
+//  دي الصفحه الي هتظهر اول ما اضغط علي اسم سوره من القران الكريم
 class SurahBuilder extends StatefulWidget {
   final surah;
   final arabic;

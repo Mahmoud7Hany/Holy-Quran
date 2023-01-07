@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:quran_kareem/arabic_number_converter.dart';
+import 'package:quran_kareem/package/arabic_number_converter.dart';
 
 class ArabicSurahNumber extends StatelessWidget {
   const ArabicSurahNumber({Key? key, required this.i}) : super(key: key);

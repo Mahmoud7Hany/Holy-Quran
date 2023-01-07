@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:quran_kareem/arabic_surah_number.dart';
-import 'package:quran_kareem/my_drawer.dart';
-import 'main.dart';
+import 'package:quran_kareem/widget/arabic_surah_number.dart';
+import 'package:quran_kareem/widget/my_drawer.dart';
+import '../main.dart';
 import 'surah_builder.dart';
-import 'constant.dart';
+import '../constants/constant.dart';
+import 'package:quran_kareem/constants/map_quran_constant.dart';
 
 class IndexPage extends StatefulWidget {
   const IndexPage({Key? key}) : super(key: key);
